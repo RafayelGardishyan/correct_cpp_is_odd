@@ -22,9 +22,12 @@ int main(int argc, char* argv[])
                 cout << "false" << "\n";
             }
             ///If the integer is odd return true
-            else{
+            else if (odd == 1){
                 cout << "true" << "\n";
             }
+			else{
+				return 1;
+			}
         ///If the argument is not an integer don't return anything
         }catch(const invalid_argument){
             return 1;
