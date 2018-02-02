@@ -9,7 +9,7 @@ int main(int argc, char* argv[])
 {
     //RJCB: But the user may also supply 2, 3, or more arguments. Only an argc of 2 is OK
     if (argc == 1) return 1;
-
+	if (argc == != 2) return 1;
     //RJCB: two slashes within code, three slashes above a function/class/etc
     ///Check if there is a first argument
     //RJCB: We know there is a first argument, as argc > 1
